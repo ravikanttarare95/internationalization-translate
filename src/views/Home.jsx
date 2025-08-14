@@ -3,20 +3,27 @@ import I18n from "./../utils/I18n";
 function Home() {
   return (
     <>
-      <h1>{I18n("greetingMessage")}</h1>
-      <h2>{I18n("nameMessage")}</h2>
-      <h3>{I18n("ageMessage")}</h3>
-      <h4>{I18n("cityMessage")}</h4>
-      <h5>{I18n("learningMessage")}</h5>
-
+      <h1>Internationalization (i18n)</h1>
       <label htmlFor="select-lang">Choose Your Language: </label>
-      <select name="select-lang" id="select-lang">
-        <option value="en" selected>
-          English
-        </option>
+      <select
+        name="select-lang"
+        id="select-lang"
+        defaultValue={localStorage.getItem("lang")} /////////IMPORTANT
+        onChange={(e) => {
+          localStorage.setItem("lang", e.target.value);
+          window.location.reload();
+        }}
+      >
+        <option value="en">English</option>
         <option value="mr">Marathi</option>
         <option value="hi">Hindi</option>
       </select>
+
+      <p>{I18n("greetingMessage")}</p>
+      <p>{I18n("nameMessage")}</p>
+      <p>{I18n("ageMessage")}</p>
+      <p>{I18n("cityMessage")}</p>
+      <p>{I18n("learningMessage")}</p>
     </>
   );
 }
