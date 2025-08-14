@@ -2,21 +2,21 @@
   "en": {
     "greetingMessage": "Good morning, guys!",
     "nameMessage": "I'm Ravikant Tarare.",
-    "ageMessage": "I am 24 years old.",
+    "ageMessage": "I am <ageCount> years old.",
     "cityMessage": "I belong to Mandhal, a town in Bhandara district, Maharashtra.",
     "learningMessage": "I am learning Full-Stack Development at Road To Code."
   },
   "mr": {
     "greetingMessage": "सुप्रभात, मित्रांनो!",
     "nameMessage": "मी रविकांत तरारे आहे.",
-    "ageMessage": "मी २४ वर्षांचा आहे.",
+    "ageMessage": "मी <ageCount> वर्षांचा आहे.",
     "cityMessage": "मी महाराष्ट्रातील भंडारा जिल्ह्यातील मांढळ या गावचा आहे.",
     "learningMessage": "मी Road To Code येथे Full-Stack Development शिकत आहे."
   },
   "hi": {
     "greetingMessage": "सुप्रभात, दोस्तों!",
     "nameMessage": "मैं रविकांत तरारे हूँ।",
-    "ageMessage": "मैं 24 साल का हूँ।",
+    "ageMessage": "मैं <ageCount> साल का हूँ।",
     "cityMessage": "मैं महाराष्ट्र के भंडारा ज़िले के मांढळ गाँव से हूँ।",
     "learningMessage": "मैं Road To Code में Full-Stack Development सीख रहा हूँ।"
   }

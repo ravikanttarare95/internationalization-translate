@@ -1,6 +1,7 @@
 import I18n from "./../utils/I18n";
 
 function Home() {
+  const ageCount = 24;
   return (
     <>
       <h1>Internationalization (i18n)</h1>
@@ -21,7 +22,7 @@ function Home() {
 
       <p>{I18n("greetingMessage")}</p>
       <p>{I18n("nameMessage")}</p>
-      <p>{I18n("ageMessage")}</p>
+      <p>{I18n("ageMessage", ageCount)}</p>
       <p>{I18n("cityMessage")}</p>
       <p>{I18n("learningMessage")}</p>
     </>
